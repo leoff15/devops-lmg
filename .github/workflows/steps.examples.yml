@@ -1,0 +1,10 @@
+ jobx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Node steps
+        uses: escemi-tech/actions-node@v1.4.0
+      - name: verification of node version
+        run: node --version
+
+
+
