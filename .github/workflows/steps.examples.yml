@@ -2,7 +2,7 @@
     runs-on: ubuntu-latest
     steps:
       - name: Node steps
-        uses: escemi-tech/actions-node@v1.4.0
+        uses: escemi-tech/actions-node@v15.0
       - name: verification of node version
         run: node --version
 
